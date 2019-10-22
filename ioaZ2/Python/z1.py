@@ -12,11 +12,11 @@ y = np.arange(-4, 4, 0.5)
 x, y = np.meshgrid(x, y)
 
 
-c = [0.05, 0.1, 0.04, 0.1, 0.05]
+c = [0.05, 0.02, 0.04, 0.1, 0.05]
 a = [[-3, -3], [-1.5, -1.5],[0,0], [1.5, 1.], [3, 3]]
 
 z = 0
-K = 0.5
+K = 50
 
 n = np.arange(5)
 for i in n:
@@ -29,4 +29,5 @@ ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_zlabel('z')
 ax.set_facecolor('aqua')
+
 plt.show()

@@ -1,0 +1,7 @@
+﻿  Source.cpp
+..\..\..\..\..\Source.cpp(23): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+..\..\..\..\..\Source.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating code
+  All 16 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ioaZ3.vcxproj -> C:\Users\Korisnik1\Desktop\IOA\Moji domaci\IOA-zadaci\ioaZ3\Release\ioaZ3.exe

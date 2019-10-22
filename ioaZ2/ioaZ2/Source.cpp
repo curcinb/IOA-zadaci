@@ -38,6 +38,7 @@ void bruteForce() {
 			}
 		}
 	}
+
 	fprintf(f, "%lld\n", brojac);
 	fclose(f);
 }
@@ -71,12 +72,13 @@ void optimizacija() {
 			}
 		}
 	}
+
 	fprintf(f, "%ld\n", brojac);
 	fclose(f);
 }
 
 
-//Petlja mi se ponavlja 2x sto je maksimalno 1400 ponavljanja, sto ne bi trebalo da oduzme puno vremena
+
 void faktorizacija() {
 	long int brojac = 0;
 	int brojacFaktora = 0;
@@ -119,6 +121,7 @@ void faktorizacija() {
 			}
 		}
 	}
+
 	fprintf(f, "%ld\n", brojac);
 	fclose(f);
 }
@@ -135,7 +138,7 @@ int main() {
 	faktorizacija();
 
 	//G) Koji je najbrzi, a koji najlakse napisati?
-	cout << "Najbrzi je FAKTORIZACIJA, a najlaksi za pisanje: BRUTEFORCE" << endl;
+	cout << "Najbrzi je: FAKTORIZACIJA, a najlaksi za pisanje: BRUTEFORCE\n" << endl;
 	system("pause");
 	return 0;
 }
